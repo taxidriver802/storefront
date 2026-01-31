@@ -1,35 +1,46 @@
+/* Hot / hero product card */
+
 .showoff {
   position: relative;
   height: 580px;
   width: 366px;
+
   background-size: cover;
   background-position: center;
-  border-radius: 12px;
+
+  border-radius: var(--radius-md);
   overflow: hidden;
+
   display: flex;
   align-items: flex-end;
+
+  /* shadow down + slightly left */
+  box-shadow: var(--shadow-medium);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* .showoff:hover {
-  transform: translateY(-3px);
-  box-shadow: 9px 16px 35px rgba(0, 0, 0, 0.3);
-} */
+.showoff:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-strong);
+}
 
 .showoff_overlay {
   width: 100%;
-  padding: 16px;
+  padding: var(--space-md);
   background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
-  color: white;
+  color: #fff;
+
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: var(--space-sm);
+}
+
+.card_title {
+  margin: 0;
+  font-size: 1.5rem;
+  letter-spacing: 0.2px;
 }
 
 .card_button {
   align-self: flex-start;
-  padding: 8px 14px;
-  border: none;
-  cursor: pointer;
-  color: white;
-  background-color: rgb(0, 0, 0);
 }

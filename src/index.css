@@ -1,1 +1,30 @@
 @import './styles/theme.css';
+@import './styles/base.css';
+
+/* Global reset / base theme */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  font-family: inherit;
+}

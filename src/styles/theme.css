@@ -1,13 +1,10 @@
 :root {
   /* Colors */
-  --color-bg: #ffffff;
+  --color-bg: #eeeeee;
   --color-primary: #000000;
-  --color-accent: #f5c16c;
-  --color-text: #111111;
+  --color-accent: rgb(255, 192, 203);
+  --color-text: var(--color-bg, #eeeeee);
   --color-muted: #777777;
-
-  /* Margin */
-  margin: 0;
 
   /* Shadows */
   --shadow-soft: -6px 10px 20px rgba(0, 0, 0, 0.18);

@@ -1,15 +1,14 @@
-.home {
-  color: purple;
-}
+/* Home page */
 
 .home__img {
   width: 100%;
+  height: auto;
 }
 
 .home_showoff {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  padding: 50px 60px;
-  gap: 50px;
+  padding: calc(var(--space-lg) + var(--space-md));
+  gap: calc(var(--space-lg) + var(--space-sm));
 }

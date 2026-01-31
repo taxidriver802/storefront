@@ -26,7 +26,7 @@ function Header() {
       <header className="header">
         <nav className="buttons">
           {leftNav.map((label) => (
-            <button key={label} className="button" type="button">
+            <button key={label} className="button btn-ghost" type="button">
               {label}
             </button>
           ))}
