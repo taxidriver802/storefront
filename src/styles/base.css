@@ -1,0 +1,29 @@
+/* Base card style */
+.card {
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-medium);
+  overflow: hidden;
+  background-color: var(--color-bg);
+}
+
+/* Primary button */
+.btn-primary {
+  padding: 10px 16px;
+  border: none;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-main);
+  cursor: pointer;
+  background: var(--color-primary);
+  color: white;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-soft);
+}
+
+/* Section spacing */
+.section {
+  padding: var(--space-lg);
+}

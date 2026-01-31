@@ -1,0 +1,35 @@
+.showoff {
+  position: relative;
+  height: 580px;
+  width: 366px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* .showoff:hover {
+  transform: translateY(-3px);
+  box-shadow: 9px 16px 35px rgba(0, 0, 0, 0.3);
+} */
+
+.showoff_overlay {
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card_button {
+  align-self: flex-start;
+  padding: 8px 14px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(0, 0, 0);
+}

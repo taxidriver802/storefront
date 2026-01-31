@@ -1,0 +1,15 @@
+.home {
+  color: purple;
+}
+
+.home__img {
+  width: 100%;
+}
+
+.home_showoff {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px 60px;
+  gap: 50px;
+}
